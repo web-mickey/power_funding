@@ -1,60 +1,27 @@
-### ✅ The project was awarded the 1st place bounty from [Golem](https://www.golem.network/) at the [ETH Warsaw Hackathon](https://www.ethwarsaw.dev/), 2024 edition.
-
 # Power Funding
 
-You can run the project by following these steps:
+> 🏆 **1st place - Golem bounty at ETH Warsaw 2024** (Track 1: Platform Innovation)
 
-### Clone the Repo
+A decentralized crowdfunding platform built during the ETH Warsaw 2024 hackathon. Browse projects, fund the ones you believe in, and see donations land in real time.
 
-1. Clone this repository to your local machine.
+## What it does
+- Browse projects and open individual project pages
+- Donate to projects you want to back
+- Real-time feed of the latest donations
+- Personal profile with your activity
 
-### Running the Database and Indexer
+## Tech
+- **Frontend:** Next.js, TypeScript, Tailwind, shadcn/ui
+- **Backend:** containerized database + indexer (docker-compose)
+- **Built on:** Golem
 
-To set up the database and indexer, navigate to the root directory and run:
+## Demo
+▶️ [Watch the 2-min demo](https://www.youtube.com/watch?v=QQq2tBoDJik)
 
-```bash
-docker-compose up --build
-```
+<!-- [uzupełnij: wrzuć tu screenshot/GIF do ./assets/ jak coś znajdziesz - patrz niżej jak odzyskać] -->
 
-### Running the Frontend
-
-1. Navigate to the frontend directory:
-
-```bash
-cd frontend
-```
-
-2. Install the necessary dependencies:
-
-```bash
-npm install
-```
-
-3. Start the development server:
-
-```bash
-npm run dev
-```
-
----
-
-## Project Information
-
-**Project Created During ETHWarsaw 2024 Hackathon - Track 1: Platform Innovate from GOLEM**
-
-### Team Members:
-
-- Emilia Talarek
-- Mikołaj Sowa
-- Krystian Mejor
-
----
-
-### Demo Video
-
-Check out the demo on YouTube:
-
-[Power Funding Demo](https://www.youtube.com/watch?v=QQq2tBoDJik)
+## Team
+Built by Emilia Talarek, Mikołaj Sowa, Krystian Mejor.
 
 ### Wallet for bounty:
 
